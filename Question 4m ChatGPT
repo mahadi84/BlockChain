@@ -6,29 +6,30 @@
 
 ############################## General Ethereum and Blockchain Questions ##############################
 
-1. **Q: What is Ethereum?**
+1. **Q: What is a blockchain?**
+   **A:** A blockchain is a decentralized ledger technology of all transactions across a network. It is maintained by a network of computers called nodes.
+
+2. **Q: What is Ethereum?**
    **A:** Ethereum is an open-source, blockchain-based distributed computing platform featuring smart contract functionality.
 
-2. **Q: Who created Ethereum?**
+3. **Q: Who created Ethereum?**
    **A:** Ethereum was created by Vitalik Buterin in 2013.
 
-3. **Q: What is a smart contract?**
+4. **Q: What is a smart contract?**
    **A:** A smart contract is a self-executing contract with the terms of the agreement directly written into code.
 
-4. **Q: What is Ether (ETH)?**
+5. **Q: What is Ether (ETH)?**
    **A:** Ether (ETH) is the native cryptocurrency of the Ethereum platform.
 
-5. **Q: What is gas in Ethereum?**
+6. **Q: What is gas in Ethereum?**
    **A:** Gas is a unit that measures the amount of computational effort required to execute operations, such as transactions and smart contract functions, on the Ethereum network.
 
-6. **Q: What is the Ethereum Virtual Machine (EVM)?**
+7. **Q: What is the Ethereum Virtual Machine (EVM)?**
    **A:** The EVM is a Turing-complete virtual machine that allows anyone to execute arbitrary EVM bytecode. It is the runtime environment for smart contracts in Ethereum.
 
-7. **Q: What is Solidity?**
+8. **Q: What is Solidity?**
    **A:** Solidity is a high-level programming language designed for writing smart contracts that run on the Ethereum Virtual Machine.
 
-8. **Q: What is a blockchain?**
-   **A:** A blockchain is a decentralized ledger of all transactions across a network. It is maintained by a network of computers called nodes.
 
 9. **Q: What is a node in Ethereum?**
    **A:** A node is a computer that participates in the Ethereum network by validating transactions and blocks, and maintaining the blockchain state.
