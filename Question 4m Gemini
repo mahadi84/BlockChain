@@ -1,0 +1,40 @@
+
+
+Give 10 question and answer for Certified Blockchain Developer - Ethereum (CBDE) certification.
+
+
+
+What is the primary purpose of a smart contract on Ethereum?
+
+Answer: To automate the execution of agreements according to predefined conditions, without the need for a central authority.
+What is the unit of computation in Ethereum called?
+
+Answer: Gas
+What is the role of the Ethereum Virtual Machine (EVM)?
+
+Answer: The EVM is a decentralized virtual computer that executes smart contract code on the Ethereum network.
+What is the difference between a state variable and a local variable in a Solidity smart contract?
+
+Answer: State variables are stored permanently on the blockchain, while local variables exist only during the execution of a specific function.
+What is a common security vulnerability in smart contracts?
+
+Answer: Reentrancy attacks, where a function can be called multiple times before the first call completes.
+What is the function of web3.js in Ethereum development?
+
+Answer: Web3.js is a JavaScript library that allows developers to interact with the Ethereum blockchain from web applications.
+What are the different ways to deploy a smart contract on Ethereum?
+
+Answer: Some methods include using tools like Truffle, Remix IDE, or directly interacting with a node provider.
+What is the consensus mechanism used by the Ethereum blockchain?
+
+Answer: Currently, Ethereum uses Proof-of-Work (PoW), but is transitioning to Proof-of-Stake (PoS).
+What are the benefits of using decentralized applications (dApps) compared to traditional applications?
+
+Answer: dApps offer censorship resistance, transparency, and immutability compared to centralized servers.
+How can developers ensure the functionality of a smart contract before deploying it to the mainnet?
+
+
+
+
+
+-
