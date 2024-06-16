@@ -1,331 +1,330 @@
 
 
-------------- Give me 100 questions and answers without repeating for Certified Blockchain Developer - Ethereum (CBDE) certification -------------------
+Give me 100 questions and answers non-repeating and section-wise for Certified Blockchain Developer - Ethereum (CBDE) certification.
 
 
+Ethereum (CBDE) certification, organized into sections:
 
-############################## General Ethereum and Blockchain Questions ##############################
+########################################## Section 1: Ethereum Fundamentals  #######################################
 
-1. **Q: What is a blockchain?**
-   **A:** A blockchain is a decentralized ledger technology of all transactions across a network. It is maintained by a network of computers called nodes.
+1. **Q:** What is Ethereum?
+   **A:** Ethereum is a decentralized platform that enables developers to create smart contracts and decentralized applications (DApps).
 
-2. **Q: What is Ethereum?**
-   **A:** Ethereum is an open-source, blockchain-based distributed computing platform featuring smart contract functionality.
+2. **Q:** Who is the creator of Ethereum?
+   **A:** Vitalik Buterin.
 
-3. **Q: Who created Ethereum?**
-   **A:** Ethereum was created by Vitalik Buterin in 2013.
+3. **Q:** What is Ether (ETH)?
+   **A:** Ether is the native cryptocurrency of the Ethereum network, used to pay for transaction fees and computational services.
 
-4. **Q: What is a smart contract?**
+4. **Q:** What is a smart contract?
    **A:** A smart contract is a self-executing contract with the terms of the agreement directly written into code.
 
-5. **Q: What is Ether (ETH)?**
-   **A:** Ether (ETH) is the native cryptocurrency of the Ethereum platform.
+5. **Q:** What is the Ethereum Virtual Machine (EVM)?
+   **A:** The EVM is a Turing-complete virtual machine that executes smart contracts on the Ethereum blockchain.
 
-6. **Q: What is gas in Ethereum?**
-   **A:** Gas is a unit that measures the amount of computational effort required to execute operations, such as transactions and smart contract functions, on the Ethereum network.
+6. **Q:** What is gas in Ethereum?
+   **A:** Gas is a unit that measures the amount of computational effort required to execute operations like transactions and smart contract functions.
 
-7. **Q: What is the Ethereum Virtual Machine (EVM)?**
-   **A:** The EVM is a Turing-complete virtual machine that allows anyone to execute arbitrary EVM bytecode. It is the runtime environment for smart contracts in Ethereum.
+7. **Q:** What is the purpose of gas in Ethereum?
+   **A:** To limit the amount of work that can be done in a transaction and to reward miners for their work.
 
-8. **Q: What is Solidity?**
-   **A:** Solidity is a high-level programming language designed for writing smart contracts that run on the Ethereum Virtual Machine.
+8. **Q:** What is a gas limit?
+   **A:** The maximum amount of gas that a user is willing to spend on a transaction.
 
+9. **Q:** What is a gas price?
+   **A:** The amount of Ether a user is willing to pay per unit of gas.
 
-9. **Q: What is a node in Ethereum?**
-   **A:** A node is a computer that participates in the Ethereum network by validating transactions and blocks, and maintaining the blockchain state.
+10. **Q:** What is a blockchain node?
+    **A:** A node is a computer connected to the blockchain network that stores and validates the blockchain data.
 
-10. **Q: What is a consensus algorithm?**
-    **A:** A consensus algorithm is a process used by blockchain networks to achieve agreement on a single data value or a single state of the network.
+ ####################################### Section 2: Ethereum Development Tools  #######################################
 
+11. **Q:** What is Solidity?
+    **A:** Solidity is a statically-typed programming language designed for developing smart contracts on the Ethereum blockchain.
 
+12. **Q:** What is Web3.js?
+    **A:** Web3.js is a JavaScript library that allows developers to interact with the Ethereum blockchain.
 
-############################## Ethereum Development Questions ##############################
+13. **Q:** What is Truffle?
+    **A:** Truffle is a development environment, testing framework, and asset pipeline for Ethereum.
 
-11. **Q: What is Truffle?**
-    **A:** Truffle is a development framework for Ethereum that provides tools for smart contract development, testing, and deployment.
+14. **Q:** What is Ganache?
+    **A:** Ganache is a personal blockchain for Ethereum development that you can use to deploy contracts, develop applications, and run tests.
 
-12. **Q: What is Ganache?**
-    **A:** Ganache is a personal Ethereum blockchain used for testing and development. It allows developers to deploy contracts, develop applications, and run tests.
+15. **Q:** What is Remix IDE?
+    **A:** Remix IDE is an online integrated development environment for writing, testing, and deploying Ethereum smart contracts.
 
-13. **Q: What is Remix?**
-    **A:** Remix is a web-based integrated development environment (IDE) used for developing, deploying, and testing Ethereum smart contracts.
+16. **Q:** What is MetaMask?
+    **A:** MetaMask is a browser extension that allows users to interact with the Ethereum blockchain and manage their Ether and tokens.
 
-14. **Q: What is Web3.js?**
-    **A:** Web3.js is a JavaScript library that allows you to interact with the Ethereum blockchain.
+17. **Q:** What is Infura?
+    **A:** Infura provides access to the Ethereum network without needing to run a full node.
 
-15. **Q: What are ERC-20 tokens?**
-    **A:** ERC-20 tokens are a standard for creating fungible tokens on the Ethereum blockchain. They follow a specific set of rules and functions.
+18. **Q:** What is Hardhat?
+    **A:** Hardhat is a development environment for Ethereum that helps developers compile, deploy, test, and debug their dApps and smart contracts.
 
-16. **Q: What is an ABI in Ethereum?**
-    **A:** ABI (Application Binary Interface) is a standard way to interact with contracts in the Ethereum ecosystem, both from outside the blockchain and for contract-to-contract interaction.
+19. **Q:** What is OpenZeppelin?
+    **A:** OpenZeppelin is a library of secure and community-vetted smart contracts for Ethereum.
 
-17. **Q: What is MetaMask?**
-    **A:** MetaMask is a browser extension and mobile application that acts as a cryptocurrency wallet and gateway to Ethereum-based decentralized applications (dApps).
+20. **Q:** What is a testnet?
+    **A:** A testnet is a testing environment that mimics the main Ethereum network, allowing developers to test smart contracts without using real Ether.
 
-18. **Q: What is Infura?**
-    **A:** Infura provides Ethereum infrastructure and web3 API access to allow developers to connect their applications to the Ethereum network without running their own nodes.
+########################################## Section 3: Solidity Programming  #######################################
 
-19. **Q: What is a testnet?**
-    **A:** A testnet is a separate blockchain used for testing purposes. It is identical to the mainnet but uses test Ether, which has no real-world value.
+21. **Q:** What is a constructor in Solidity?
+    **A:** A constructor is a special function that initializes a smart contract when it is deployed.
 
-20. **Q: What is an Ethereum Improvement Proposal (EIP)?**
-    **A:** An EIP is a design document providing information to the Ethereum community, or describing a new feature or process for Ethereum.
+22. **Q:** What is a fallback function in Solidity?
+    **A:** A fallback function is executed when a contract receives Ether without any other data.
 
+23. **Q:** What is 'msg.sender' in Solidity?
+    **A:** 'msg.sender' is a global variable that represents the address of the account that called the current function.
 
+24. **Q:** What is 'msg.value' in Solidity?
+    **A:** 'msg.value' is a global variable that represents the amount of Ether sent with a transaction.
 
-############################## Smart Contracts Questions  ##############################
+25. **Q:** What is the 'require' function in Solidity?
+    **A:** 'require' is used to validate conditions and revert the transaction if the condition is not met.
 
-21. **Q: What is the difference between `msg.sender` and `tx.origin` in Solidity?**
-    **A:** `msg.sender` refers to the immediate sender of the message (or call), while `tx.origin` refers to the original sender of the transaction.
+26. **Q:** What is the 'assert' function in Solidity?
+    **A:** 'assert' is used to check for conditions that should never occur, and it throws an error if the condition is false.
 
-22. **Q: How do you handle exceptions in Solidity?**
-    **A:** Exceptions in Solidity can be handled using the `require()`, `assert()`, and `revert()` functions.
+27. **Q:** What is the 'revert' function in Solidity?
+    **A:** 'revert' is used to revert the transaction and undo all state changes.
 
-23. **Q: What is the fallback function in Solidity?**
-    **A:** The fallback function is a special function that is executed when a contract receives Ether with no data, or when data does not match any function signature.
+28. **Q:** What is the 'emit' keyword in Solidity?
+    **A:** 'emit' is used to trigger an event.
 
-24. **Q: What is inheritance in Solidity?**
-    **A:** Inheritance in Solidity allows one contract to inherit the properties and functions of another contract, enabling code reuse and organization.
+29. **Q:** What is an 'event' in Solidity?
+    **A:** An event is a logging mechanism that allows Ethereum contracts to communicate with the outside world.
 
-25. **Q: What is a modifier in Solidity?**
-    **A:** A modifier is a piece of code that can be used to change the behavior of functions in a declarative way.
+30. **Q:** What is a 'mapping' in Solidity?
+    **A:** A mapping is a reference type that acts like a hash table or dictionary for key-value pairs.
 
-26. **Q: What is the purpose of the `selfdestruct` function in Solidity?**
-    **A:** The `selfdestruct` function is used to destroy a contract and send its remaining Ether balance to a specified address.
+31. **Q:** What is the purpose of a 'modifier' in Solidity?
+    **A:** Modifiers are used to change the behavior of functions in a declarative way.
 
-27. **Q: How do you implement a simple storage contract in Solidity?**
-    **A:** 
-    ```solidity
-    pragma solidity ^0.8.0;
+32. **Q:** What is inheritance in Solidity?
+    **A:** Inheritance allows a new contract to extend the functionality of an existing contract.
 
-    contract SimpleStorage {
-        uint256 storedData;
+33. **Q:** What is a library in Solidity?
+    **A:** A library is a reusable piece of code that can be used by contracts to avoid redundancy.
 
-        function set(uint256 x) public {
-            storedData = x;
-        }
+34. **Q:** What is the 'selfdestruct' function in Solidity?
+    **A:** 'selfdestruct' deletes a contract and sends its remaining Ether to a specified address.
 
-        function get() public view returns (uint256) {
-            return storedData;
-        }
-    }
-    ```
+35. **Q:** What is 'delegatecall' in Solidity?
+    **A:** 'delegatecall' allows a contract to execute code from another contract in the context of the calling contract.
 
-28. **Q: What is the `keccak256` function used for in Solidity?**
-    **A:** The `keccak256` function is used to compute the hash of the input data. It is commonly used for creating unique identifiers and verifying data integrity.
+36. **Q:** What is the 'this' keyword in Solidity?
+    **A:** 'this' is a reference to the current contract instance.
 
-29. **Q: What is the difference between `public`, `private`, `internal`, and `external` visibility specifiers in Solidity?**
-    **A:** 
-    - `public`: Functions and state variables are accessible by any contract or account.
-    - `private`: Functions and state variables are only accessible within the contract that defines them.
-    - `internal`: Functions and state variables are accessible within the contract and contracts deriving from it.
-    - `external`: Functions are accessible only from other contracts and accounts, but not from within the same contract.
+37. **Q:** What is a 'struct' in Solidity?
+    **A:** A struct is a custom data type that groups together variables.
 
-30. **Q: What are events in Solidity?**
-    **A:** Events in Solidity are used to log information to the blockchain. They can be accessed through the transaction logs by off-chain applications.
+38. **Q:** What is the difference between 'memory' and 'storage' in Solidity?
+    **A:** 'Memory' refers to temporary storage used during contract execution, while 'storage' refers to persistent storage on the blockchain.
 
+39. **Q:** What is 'ABI' in Ethereum?
+    **A:** ABI stands for Application Binary Interface, which defines how data structures and functions can be accessed in a smart contract.
 
-############################## Blockchain Architecture Questions ##############################
+40. **Q:** What is the purpose of the 'payable' keyword in Solidity?
+    **A:** The 'payable' keyword allows a function to accept Ether.
 
-31. **Q: What is a decentralized application (dApp)?**
-    **A:** A dApp is an application that runs on a decentralized network, typically using smart contracts on a blockchain.
+########################################## Section 4: Ethereum Standards and Tokens #######################################
 
-32. **Q: What is a consensus mechanism?**
-    **A:** A consensus mechanism is a process used by blockchain networks to agree on the validity of transactions and the state of the ledger.
+41. **Q:** What is the ERC-20 standard?
+    **A:** ERC-20 is a standard for fungible tokens on the Ethereum blockchain.
 
-33. **Q: What is Proof of Work (PoW)?**
-    **A:** Proof of Work is a consensus mechanism where miners compete to solve cryptographic puzzles to validate transactions and create new blocks.
+42. **Q:** What is the ERC-721 standard?
+    **A:** ERC-721 is a standard for non-fungible tokens (NFTs) on the Ethereum blockchain.
 
-34. **Q: What is Proof of Stake (PoS)?**
-    **A:** Proof of Stake is a consensus mechanism where validators are chosen to create new blocks and validate transactions based on the amount of cryptocurrency they hold and are willing to "stake" as collateral.
+43. **Q:** What is a fungible token?
+    **A:** A fungible token is interchangeable with other tokens of the same type and value.
 
-35. **Q: What is sharding in the context of blockchain?**
-    **A:** Sharding is a scalability technique that involves splitting the blockchain into smaller partitions, or "shards," each of which can process transactions in parallel.
+44. **Q:** What is a non-fungible token (NFT)?
+    **A:** An NFT represents a unique asset that is not interchangeable with other tokens.
 
-36. **Q: What is the purpose of a blockchain miner?**
-    **A:** A miner validates transactions, adds them to the blockchain, and creates new blocks, typically receiving a reward in the form of cryptocurrency.
+45. **Q:** What are the main functions of the ERC-20 standard?
+    **A:** Functions like `balanceOf`, `transfer`, `transferFrom`, `approve`, and `allowance`.
 
-37. **Q: What is a block in a blockchain?**
-    **A:** A block is a collection of transactions that are bundled together and added to the blockchain after being validated.
+46. **Q:** What is an Initial Coin Offering (ICO)?
+    **A:** An ICO is a fundraising method where new tokens are sold to early backers in exchange for Ether.
 
-38. **Q: What is a Merkle tree?**
-    **A:** A Merkle tree is a data structure used to efficiently and securely verify the integrity of large sets of data.
+47. **Q:** What is a decentralized application (DApp)?
+    **A:** A DApp is an application that runs on a decentralized network using smart contracts.
 
-39. **Q: What is a non-fungible token (NFT)?**
-    **A:** An NFT is a type of digital asset that represents ownership or proof of authenticity of a unique item or piece of content, typically on a blockchain.
+48. **Q:** What is the Ethereum Name Service (ENS)?
+    **A:** ENS is a distributed, open, and extensible naming system based on the Ethereum blockchain.
 
-40. **Q: What is a hash function?**
-    **A:** A hash function is a cryptographic algorithm that takes an input and produces a fixed-size string of bytes. The output is unique to each unique input.
+49. **Q:** What is a token in Ethereum?
+    **A:** A token is a digital asset created on top of the Ethereum blockchain that conforms to standards like ERC-20 or ERC-721.
 
+50. **Q:** What is a decentralized exchange (DEX)?
+    **A:** A DEX is an exchange that operates without a central authority, allowing peer-to-peer trading of cryptocurrencies.
 
+### Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades
 
-############################## Advanced Ethereum Development Questions ##############################
+51. **Q:** What is an Ethereum Improvement Proposal (EIP)?
+    **A:** An EIP is a proposal for changes, enhancements, or improvements to the Ethereum network.
 
-41. **Q: How do you deploy a smart contract to the Ethereum mainnet using Truffle?**
-    **A:** 
-    1. Compile the contract using `truffle compile`.
-    2. Configure the deployment settings in the `truffle-config.js` file.
-    3. Deploy the contract using `truffle migrate --network mainnet`.
+52. **Q:** What is EIP-1559?
+    **A:** EIP-1559 is an improvement proposal aimed at reforming the transaction fee market, introducing a base fee and a tip mechanism.
 
-42. **Q: What is the purpose of the `delegatecall` function in Solidity?**
-    **A:** `delegatecall` allows a contract to execute code from another contract while maintaining the context (storage, msg.sender, msg.value) of the caller.
+53. **Q:** What is Ethereum 2.0?
+    **A:** Ethereum 2.0 is an upgrade to improve the scalability, security, and sustainability of Ethereum by transitioning from Proof of Work to Proof of Stake.
 
-43. **Q: How do you handle large data structures in Solidity?**
-    **A:** Large data structures should be managed carefully using mappings and arrays, and complex operations should be broken down to avoid running out of gas.
+54. **Q:** What is Proof of Stake (PoS)?
+    **A:** PoS is a consensus mechanism where validators are chosen based on the number of tokens they hold and are willing to "stake" as collateral.
 
-44. **Q: What are the security implications of using `call`
+55. **Q:** What is sharding in Ethereum 2.0?
+    **A:** Sharding is a technique
 
- in Solidity?**
-    **A:** Using `call` can introduce security risks such as reentrancy attacks, where an external contract can repeatedly call back into the calling contract before the original function call finishes.
+ to split the blockchain into smaller, more manageable pieces called shards to improve scalability.
 
-45. **Q: How do you optimize gas usage in a smart contract?**
-    **A:** 
-    - Minimize storage operations.
-    - Use efficient data types.
-    - Avoid complex computations on-chain.
-    - Batch multiple transactions into one.
-    - Use libraries for common operations.
+56. **Q:** What is a validator in Ethereum 2.0?
+    **A:** A validator is a participant in the PoS consensus mechanism responsible for proposing and attesting to blocks.
 
-46. **Q: What is the difference between `pure` and `view` functions in Solidity?**
-    **A:** 
-    - `pure` functions do not read or modify the blockchain state.
-    - `view` functions read but do not modify the blockchain state.
+57. **Q:** What is staking in Ethereum 2.0?
+    **A:** Staking is the process of locking up Ether to participate in validating transactions and securing the network.
 
-47. **Q: How do you test smart contracts using Truffle?**
-    **A:** Smart contracts can be tested using Truffle by writing tests in JavaScript or Solidity and running them with the `truffle test` command.
+58. **Q:** What is the purpose of the Beacon Chain in Ethereum 2.0?
+    **A:** The Beacon Chain is the central chain that coordinates the network of shard chains.
 
-48. **Q: What is the purpose of the `indexed` keyword in Solidity events?**
-    **A:** The `indexed` keyword allows up to three parameters to be indexed in a Solidity event, making it easier to filter and search for specific events.
+59. **Q:** What is the merge in Ethereum 2.0?
+    **A:** The merge is the transition from the Ethereum 1.0 mainnet (using PoW) to the Ethereum 2.0 mainnet (using PoS).
 
-49. **Q: How do you handle contract upgrades in Ethereum?**
-    **A:** Contract upgrades can be managed using proxy patterns, where a proxy contract delegates calls to an implementation contract that can be updated.
+60. **Q:** What is EIP-721?
+    **A:** EIP-721 is the proposal that defines the ERC-721 standard for non-fungible tokens (NFTs).
 
-50. **Q: What are libraries in Solidity?**
-    **A:** Libraries in Solidity are reusable pieces of code that can be linked to contracts at deployment time, providing common functionalities without duplicating code.
+########################################## Section 6: Ethereum Security #######################################
 
+61. **Q:** What is reentrancy in smart contracts?
+    **A:** Reentrancy is a vulnerability where an external call to another contract can call back into the calling contract before the initial execution is complete.
 
+62. **Q:** What is the DAO attack?
+    **A:** The DAO attack was an exploit in 2016 where an attacker drained funds from The DAO due to a reentrancy vulnerability.
 
-############################## Ethereum Ecosystem Questions ##############################
+63. **Q:** What is a multisignature wallet?
+    **A:** A multisignature wallet requires multiple private keys to authorize a transaction, enhancing security.
 
-51. **Q: What is DeFi?**
-    **A:** DeFi (Decentralized Finance) is a movement that leverages decentralized networks and blockchain technology to transform old financial products into trustless and transparent protocols.
+64. **Q:** What is a private key?
+    **A:** A private key is a secret key used to sign transactions and provide access to a user's cryptocurrency.
 
-52. **Q: What is a DAO?**
-    **A:** A DAO (Decentralized Autonomous Organization) is an organization represented by rules encoded as a transparent computer program, controlled by organization members rather than a central authority.
+65. **Q:** What is a public key?
+    **A:** A public key is a cryptographic code that allows users to receive cryptocurrency.
 
-53. **Q: What is the ERC-721 standard?**
-    **A:** ERC-721 is a standard for creating non-fungible tokens (NFTs) on the Ethereum blockchain.
+66. **Q:** What is the purpose of hashing in blockchain?
+    **A:** Hashing generates a unique identifier for data and ensures data integrity.
 
-54. **Q: What is the ERC-1155 standard?**
-    **A:** ERC-1155 is a multi-token standard that allows for the creation of fungible, non-fungible, and semi-fungible tokens in a single contract.
+67. **Q:** What is keccak256?
+    **A:** keccak256 is a hashing function used to generate a unique hash of data in Ethereum.
 
-55. **Q: What is Oracles' role in the Ethereum ecosystem?**
-    **A:** Oracles provide external data to smart contracts on the blockchain, enabling them to interact with real-world information.
+68. **Q:** What is a nonce in Ethereum?
+    **A:** A nonce is a unique number used to ensure each transaction can only be processed once.
 
-56. **Q: What is a layer 2 solution?**
-    **A:** Layer 2 solutions are protocols built on top of the Ethereum blockchain to improve scalability and transaction speed while reducing costs.
+69. **Q:** What is the 'require' statement used for in Solidity?
+    **A:** The 'require' statement is used to validate conditions and revert the transaction if the condition is not met.
 
-57. **Q: What is a sidechain?**
-    **A:** A sidechain is a separate blockchain that runs in parallel to the main Ethereum chain, allowing for the transfer of assets and data between chains.
+70. **Q:** What is a Denial of Service (DoS) attack in the context of Ethereum smart contracts?
+    **A:** A DoS attack aims to disrupt the normal function of a smart contract by overloading it with excessive calls or transactions.
 
-58. **Q: What is zk-SNARK?**
-    **A:** zk-SNARK (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) is a cryptographic proof that allows one party to prove to another that they know a value without revealing the actual value.
+########################################## Section 7: Ethereum Transactions and Blockchain Mechanics #######################################
 
-59. **Q: What is the Raiden Network?**
-    **A:** The Raiden Network is an off-chain scaling solution for Ethereum that enables fast, low-fee, and scalable token transfers.
+71. **Q:** What is a transaction in Ethereum?
+    **A:** A transaction is an action initiated by an externally owned account that can transfer value or execute a smart contract.
 
-60. **Q: What is Plasma?**
-    **A:** Plasma is a framework for building scalable decentralized applications by using child chains that can run alongside the main Ethereum chain.
+72. **Q:** What is the structure of an Ethereum transaction?
+    **A:** An Ethereum transaction includes a nonce, gas price, gas limit, recipient address, value, data, and the sender's signature.
 
+73. **Q:** What is a block in Ethereum?
+    **A:** A block is a set of transactions bundled together and added to the blockchain.
 
+74. **Q:** What is a block hash?
+    **A:** A block hash is a unique identifier for a block generated by hashing the block's header.
 
-############################## Ethereum 2.0 and Future Developments Questions ##############################
+75. **Q:** What is the average block time in Ethereum?
+    **A:** Approximately 12-14 seconds.
 
-61. **Q: What is Ethereum 2.0?**
-    **A:** Ethereum 2.0, also known as Eth2 or Serenity, is an upgrade to the Ethereum network that aims to improve scalability, security, and sustainability through a series of phases and the implementation of Proof of Stake.
+76. **Q:** What is a receipt in Ethereum?
+    **A:** A receipt is a confirmation that a transaction has been processed and included in a block.
 
-62. **Q: What are the phases of Ethereum 2.0?**
-    **A:** The phases of Ethereum 2.0 are:
-    - Phase 0: Beacon Chain
-    - Phase 1: Shard Chains
-    - Phase 1.5: Merge with Ethereum Mainnet
-    - Phase 2: Execution Layer
+77. **Q:** What is the purpose of 'eth_getBalance' method?
+    **A:** The 'eth_getBalance' method retrieves the balance of an address.
 
-63. **Q: What is the Beacon Chain?**
-    **A:** The Beacon Chain is the core of Ethereum 2.0, coordinating the network of validators and managing the Proof of Stake consensus mechanism.
+78. **Q:** What is the 'eth_blockNumber' method used for?
+    **A:** The 'eth_blockNumber' method retrieves the number of the most recent block.
 
-64. **Q: What are validators in Ethereum 2.0?**
-    **A:** Validators are participants in Ethereum 2.0 who propose and validate new blocks in the Proof of Stake consensus mechanism, replacing miners from the Proof of Work system.
+79. **Q:** What is the 'eth_getTransactionByHash' method?
+    **A:** The 'eth_getTransactionByHash' method retrieves information about a transaction by its hash.
 
-65. **Q: How does staking work in Ethereum 2.0?**
-    **A:** Staking involves locking up a certain amount of Ether (32 ETH) to become a validator and participate in the network's consensus process, earning rewards for validating blocks.
+80. **Q:** What is the 'eth_call' method?
+    **A:** The 'eth_call' method executes a smart contract function locally without creating a transaction.
 
-66. **Q: What is slashing in Ethereum 2.0?**
-    **A:** Slashing is a penalty imposed on validators in Ethereum 2.0 who act maliciously or fail to perform their duties, resulting in the loss of a portion of their staked Ether.
+### Section 8: Layer 2 Solutions and Scaling
 
-67. **Q: What is eWASM?**
-    **A:** eWASM (Ethereum-flavored WebAssembly) is a proposed replacement for the EVM in Ethereum 2.0, designed to improve performance and allow for the use of multiple programming languages.
+81. **Q:** What is a sidechain?
+    **A:** A sidechain is an independent blockchain that runs in parallel to the main Ethereum chain, allowing for greater scalability and functionality.
 
-68. **Q: What is the Merge in Ethereum 2.0?**
-    **A:** The Merge is the transition from the current Ethereum mainnet, which uses Proof of Work, to Ethereum 2.0's Beacon Chain, which uses Proof of Stake, effectively merging the two chains.
+82. **Q:** What is the Raiden Network?
+    **A:** The Raiden Network is an off-chain scaling solution for Ethereum, enabling fast and low-cost payments.
 
-69. **Q: How does sharding improve Ethereum scalability?**
-    **A:** Sharding divides the Ethereum network into multiple shards, each processing its own transactions and smart contracts, thereby increasing the overall throughput and scalability.
+83. **Q:** What is Plasma?
+    **A:** Plasma is a framework for building scalable decentralized applications by processing transactions off the main Ethereum chain.
 
-70. **Q: What is the expected impact of Ethereum 2.0 on energy consumption?**
-    **A:** Ethereum 2.0's switch to Proof of Stake is expected to significantly reduce energy consumption compared to the current Proof of Work system, making the network more sustainable.
+84. **Q:** What is a rollup in Ethereum?
+    **A:** A rollup is a layer 2 scaling solution that processes transactions off-chain and posts summarized data on-chain.
 
+85. **Q:** What are optimistic rollups?
+    **A:** Optimistic rollups assume transactions are valid by default and only verify them if challenged.
 
-############################## Miscellaneous Questions ##############################
+86. **Q:** What are zk-rollups?
+    **A:** zk-rollups use zero-knowledge proofs to ensure the correctness of transactions without revealing the underlying data.
 
-71. **Q: What is a cold wallet?**
-    **A:** A cold wallet is a type of cryptocurrency wallet that is not connected to the internet, providing a high level of security for storing assets offline.
+87. **Q:** What is sharding?
+    **A:** Sharding is a method of splitting the Ethereum blockchain into smaller pieces, or shards, to improve scalability.
 
-72. **Q: What is a hot wallet?**
-    **A:** A hot wallet is a type of cryptocurrency wallet that is connected to the internet, allowing for convenient access to assets but with higher security risks compared to cold wallets.
+88. **Q:** What is the purpose of layer 2 solutions in Ethereum?
+    **A:** Layer 2 solutions aim to increase transaction throughput and reduce fees by processing transactions off the main Ethereum chain.
 
-73. **Q: What is a multisig wallet?**
-    **A:** A multisig (multi-signature) wallet requires multiple private keys to authorize a transaction, enhancing security by requiring multiple approvals.
+89. **Q:** What is a state channel?
+    **A:** A state channel is a layer 2 scaling solution that allows participants to transact off-chain, only recording the final state on-chain.
 
-74. **Q: What is a dApp browser?**
-    **A:** A dApp browser is a web browser with built-in support for interacting with decentralized applications on the Ethereum network.
+90. **Q:** What is the function of the Beacon Chain in Ethereum 2.0?
+    **A:** The Beacon Chain manages the PoS protocol and coordinates the network of shard chains.
 
-75. **Q: What is gas price and how is it measured?**
-    **A:** Gas price is the amount of Ether a user is willing to pay per unit of gas to execute a transaction or smart contract function. It is measured in Gwei, where 1 Gwei = 10^-9 Ether.
+########################################## Section 9: Oracles and External Data #######################################
 
-76. **Q: What is the difference between `block.timestamp` and `now` in Solidity?**
-    **A:** `block.timestamp` and `now` both return the current block timestamp, but `now` is an alias for `block.timestamp`.
+91. **Q:** What is an oracle in blockchain?
+    **A:** An oracle is a service that provides external data to smart contracts.
 
-77. **Q: What is an Ethereum address?**
-    **A:** An Ethereum address is a 42-character hexadecimal address used to identify a user or contract on the Ethereum network.
+92. **Q:** What is Chainlink?
+    **A:** Chainlink is a decentralized oracle network that enables smart contracts to securely interact with real-world data and services.
 
-78. **Q: How do you generate a new Ethereum address?**
-    **A:** A new Ethereum address can be generated using cryptographic algorithms to create a new public-private key pair, with the address being derived from the public key.
+93. **Q:** What is the purpose of oracles in Ethereum?
+    **A:** Oracles allow smart contracts to access external data, enabling more complex and useful decentralized applications.
 
-79. **Q: What is the difference between `send`, `transfer`, and `call` in Solidity?**
-    **A:** 
-    - `send` sends Ether with a gas limit of 2300 and returns a boolean indicating success or failure.
-    - `transfer` sends Ether with a gas limit of 2300 and reverts on failure.
-    - `call` is a low-level function that allows sending Ether and invoking functions with custom gas limits.
+94. **Q:** What is a centralized oracle?
+    **A:** A centralized oracle is controlled by a single entity, providing data from one source to a smart contract.
 
-80. **Q: What is a reentrancy attack?**
-    **A:** A reentrancy attack is a type of attack where a malicious contract repeatedly calls a vulnerable contract before the previous execution is completed, potentially draining funds.
+95. **Q:** What is a decentralized oracle?
+    **A:** A decentralized oracle aggregates data from multiple sources to provide more reliable and tamper-proof information to smart contracts.
 
+96. **Q:** What is an off-chain computation in the context of oracles?
+    **A:** Off-chain computation refers to executing certain functions outside the blockchain to save on computational resources and gas fees.
 
-############################## Ethereum Community and Governance Questions ##############################
+97. **Q:** How do oracles maintain data integrity?
+    **A:** Oracles maintain data integrity through cryptographic proofs and consensus mechanisms to ensure the data provided to smart contracts is accurate and trustworthy.
 
-81. **Q: What is Ethereum Foundation?**
-    **A:** The Ethereum Foundation is a non-profit organization dedicated to supporting Ethereum and related technologies through research, development, and education.
+98. **Q:** What is the importance of data feeds in decentralized finance (DeFi)?
+    **A:** Data feeds provide real-time market data to DeFi applications, enabling functionalities like lending, borrowing, and trading.
 
-82. **Q: What is an Ethereum hard fork?**
-    **A:** An Ethereum hard fork is a backward-incompatible upgrade to the Ethereum network, resulting in a divergence of the blockchain into two separate chains.
+99. **Q:** What is a price oracle?
+    **A:** A price oracle provides real-time price data for assets, which is essential for DeFi protocols to function correctly.
 
-83. **Q: What is an Ethereum soft fork?**
-    **A:** An Ethereum soft fork is a backward-compatible upgrade to the Ethereum network, where only the upgraded nodes enforce new rules, while old nodes continue to follow the old rules.
+100. **Q:** What are the risks associated with oracles in blockchain?
+    **A:** Risks include centralization, data manipulation, and single points of failure, which can compromise the security and reliability of smart contracts.
 
 
 
-
-
-
--
+These questions and answers are divided into specific sections covering various aspects of Ethereum and blockchain development, helping to provide a structured approach to learning for the CBDE certification.
