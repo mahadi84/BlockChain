@@ -1,0 +1,310 @@
+Give me 100 questions and answers without repeating for the Certified Blockchain Developer - Ethereum (CBDE) certification.
+
+Here are 100 questions and answers tailored for the Certified Blockchain Developer - Ethereum (CBDE) certification:
+
+1. **Q:** What is Ethereum?
+   **A:** Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud, or third-party interference.
+
+2. **Q:** Who created Ethereum?
+   **A:** Vitalik Buterin.
+
+3. **Q:** What is a smart contract?
+   **A:** A smart contract is a self-executing contract with the terms of the agreement directly written into code.
+
+4. **Q:** What language is primarily used for writing Ethereum smart contracts?
+   **A:** Solidity.
+
+5. **Q:** What is the Ethereum Virtual Machine (EVM)?
+   **A:** The EVM is a Turing-complete virtual machine that allows the execution of code exactly as intended on the Ethereum blockchain.
+
+6. **Q:** What is a gas in Ethereum?
+   **A:** Gas is a unit that measures the amount of computational effort required to execute operations like transactions and smart contract functions.
+
+7. **Q:** What is the purpose of gas in Ethereum?
+   **A:** To limit the amount of work that can be done in a single transaction and to compensate miners for the resources they use.
+
+8. **Q:** What is a gas limit?
+   **A:** The maximum amount of gas that a user is willing to spend on a transaction.
+
+9. **Q:** What is a gas price?
+   **A:** The amount of Ether the user is willing to pay per unit of gas.
+
+10. **Q:** What is Ether (ETH)?
+    **A:** The native cryptocurrency of the Ethereum platform, used to pay for gas and transaction fees.
+
+11. **Q:** What is Web3.js?
+    **A:** A JavaScript library that allows interaction with the Ethereum blockchain.
+
+12. **Q:** What is Infura?
+    **A:** A service that provides access to Ethereum and IPFS networks without the need to run a full node.
+
+13. **Q:** What is MetaMask?
+    **A:** A browser extension that allows users to interact with the Ethereum blockchain through a simple and secure interface.
+
+14. **Q:** What is Truffle?
+    **A:** A development environment, testing framework, and asset pipeline for Ethereum.
+
+15. **Q:** What is Ganache?
+    **A:** A personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests.
+
+16. **Q:** What is a blockchain node?
+    **A:** A network participant that maintains a copy of the blockchain and validates transactions.
+
+17. **Q:** What is a full node in Ethereum?
+    **A:** A node that stores the entire blockchain and participates in the validation of all transactions.
+
+18. **Q:** What is a light node?
+    **A:** A node that only stores the header of the blockchain blocks, reducing storage requirements.
+
+19. **Q:** What is Solidity?
+    **A:** A statically-typed programming language designed for developing smart contracts on the Ethereum blockchain.
+
+20. **Q:** What is the function of the 'constructor' in Solidity?
+    **A:** The constructor is a special function that initializes a contract when it is deployed.
+
+21. **Q:** What is the 'fallback' function in Solidity?
+    **A:** A function that is executed when a contract is sent Ether without any other data.
+
+22. **Q:** What is 'msg.sender' in Solidity?
+    **A:** The address of the account that called the current function.
+
+23. **Q:** What is 'msg.value' in Solidity?
+    **A:** The amount of Ether (in wei) sent with the transaction.
+
+24. **Q:** What is 'require' in Solidity?
+    **A:** A function that checks for conditions and reverts the transaction if the condition is not met.
+
+25. **Q:** What is 'assert' in Solidity?
+    **A:** A function that checks for conditions and throws an error if the condition is not met, typically used for internal errors.
+
+26. **Q:** What is 'revert' in Solidity?
+    **A:** A function that reverts the transaction, undoing any state changes.
+
+27. **Q:** What is 'emit' in Solidity?
+    **A:** A keyword used to trigger an event.
+
+28. **Q:** What is an 'event' in Solidity?
+    **A:** A logging structure that allows Ethereum contracts to communicate with the outside world.
+
+29. **Q:** What is 'mapping' in Solidity?
+    **A:** A reference type that acts as a hash table or dictionary for key-value pairs.
+
+30. **Q:** What is the purpose of 'modifier' in Solidity?
+    **A:** Modifiers are used to change the behavior of functions in a declarative way.
+
+31. **Q:** What is 'inheritance' in Solidity?
+    **A:** A way to create a new contract that extends the functionality of an existing contract.
+
+32. **Q:** What is a 'library' in Solidity?
+    **A:** A reusable piece of code that can be used by contracts to avoid redundancy.
+
+33. **Q:** What is the ERC-20 standard?
+    **A:** A standard for fungible tokens on the Ethereum blockchain.
+
+34. **Q:** What are the main functions of the ERC-20 standard?
+    **A:** Functions like balanceOf, transfer, transferFrom, approve, and allowance.
+
+35. **Q:** What is the ERC-721 standard?
+    **A:** A standard for non-fungible tokens (NFTs) on the Ethereum blockchain.
+
+36. **Q:** What is a non-fungible token (NFT)?
+    **A:** A token that represents a unique asset and is not interchangeable with other tokens.
+
+37. **Q:** What is an Initial Coin Offering (ICO)?
+    **A:** A fundraising method where new tokens are sold to early backers in exchange for Ether.
+
+38. **Q:** What is a decentralized application (DApp)?
+    **A:** An application that runs on a decentralized network, utilizing smart contracts.
+
+39. **Q:** What is the purpose of the Ethereum Improvement Proposal (EIP)?
+    **A:** To propose changes, enhancements, or improvements to the Ethereum network.
+
+40. **Q:** What is EIP-1559?
+    **A:** An Ethereum improvement proposal aimed at reforming the transaction fee market.
+
+41. **Q:** What is a block in Ethereum?
+    **A:** A set of transactions bundled together and added to the blockchain.
+
+42. **Q:** What is a block hash?
+    **A:** A unique identifier for a block generated by hashing the block's header.
+
+43. **Q:** What is the average block time in Ethereum?
+    **A:** Approximately 12-14 seconds.
+
+44. **Q:** What is the Ethereum 2.0 upgrade?
+    **A:** An upgrade to improve the scalability, security, and sustainability of Ethereum by transitioning from Proof of Work to Proof of Stake.
+
+45. **Q:** What is Proof of Stake (PoS)?
+    **A:** A consensus mechanism where validators are chosen based on the number of tokens they hold and are willing to "stake" as collateral.
+
+46. **Q:** What is Proof of Work (PoW)?
+    **A:** A consensus mechanism where miners solve complex mathematical problems to validate transactions and create new blocks.
+
+47. **Q:** What is a validator in Ethereum 2.0?
+    **A:** A participant in the PoS consensus mechanism responsible for proposing and attesting to blocks.
+
+48. **Q:** What is sharding in Ethereum 2.0?
+    **A:** A technique to split the blockchain into smaller, more manageable pieces called shards to improve scalability.
+
+49. **Q:** What is a sidechain?
+    **A:** An independent blockchain that runs in parallel to the main Ethereum chain, allowing for greater scalability and functionality.
+
+50. **Q:** What is the Raiden Network?
+    **A:** An off-chain scaling solution for Ethereum, enabling fast and low-cost payments.
+
+51. **Q:** What is Plasma?
+    **A:** A framework for building scalable decentralized applications by processing transactions off the main Ethereum chain.
+
+52. **Q:** What is a decentralized autonomous organization (DAO)?
+    **A:** An organization governed by smart contracts and code rather than traditional hierarchical structures.
+
+53. **Q:** What is the Ethereum Name Service (ENS)?
+    **A:** A distributed, open, and extensible naming system based on the Ethereum blockchain.
+
+54. **Q:** What is IPFS?
+    **A:** InterPlanetary File System, a protocol for storing and sharing data in a decentralized manner.
+
+55. **Q:** What is a token in Ethereum?
+    **A:** A digital asset built on top of the Ethereum blockchain, conforming to standards like ERC-20 or ERC-721.
+
+56. **Q:** What is a decentralized exchange (DEX)?
+    **A:** An exchange that operates without a central authority, allowing peer-to-peer trading of cryptocurrencies.
+
+57. **Q:** What is an oracle in blockchain?
+    **A:** A service that provides external data to smart contracts.
+
+58. **Q:** What is Chainlink?
+    **A:** A decentralized oracle network that enables smart contracts to securely interact with real-world data and services.
+
+59. **Q:** What is a multisignature wallet?
+    **A:** A wallet that requires multiple signatures to authorize a transaction.
+
+60. **Q:** What is a DAO attack?
+    **A:** The infamous exploit in 2016 where an attacker drained funds from The DAO due to a vulnerability in its smart contract code.
+
+61. **Q:** What is the difference between a private key and a public key?
+    **A:** A private key is a secret key used to sign transactions, while a public key is shared publicly and used
+
+ to verify the signatures.
+
+62. **Q:** What is the purpose of hashing in blockchain?
+    **A:** To generate a unique identifier for data and ensure data integrity.
+
+63. **Q:** What is keccak256 in Solidity?
+    **A:** A hashing function used to generate a unique hash of data.
+
+64. **Q:** What is Remix IDE?
+    **A:** An online integrated development environment for writing, testing, and deploying smart contracts.
+
+65. **Q:** What is the purpose of a testnet in Ethereum?
+    **A:** A testing environment that mimics the mainnet, allowing developers to test smart contracts without using real Ether.
+
+66. **Q:** What is Ropsten?
+    **A:** A public testnet for Ethereum.
+
+67. **Q:** What is Goerli?
+    **A:** A cross-client Ethereum testnet used for testing purposes.
+
+68. **Q:** What is Rinkeby?
+    **A:** Another public testnet for Ethereum.
+
+69. **Q:** What is Hardhat?
+    **A:** A development environment for Ethereum software that helps developers compile, deploy, test, and debug their Ethereum software.
+
+70. **Q:** What is OpenZeppelin?
+    **A:** A library for secure smart contract development on Ethereum.
+
+71. **Q:** What is a mnemonic phrase?
+    **A:** A series of words that store all the information needed to recover a cryptocurrency wallet.
+
+72. **Q:** What is the purpose of the 'selfdestruct' function in Solidity?
+    **A:** To delete a contract and send its remaining Ether to a specified address.
+
+73. **Q:** What is 'delegatecall' in Solidity?
+    **A:** A low-level function that allows a contract to execute code from another contract within its own context.
+
+74. **Q:** What is the 'msg' object in Solidity?
+    **A:** An object containing information about the current transaction, such as sender and value.
+
+75. **Q:** What is the purpose of the 'block' object in Solidity?
+    **A:** It provides information about the current block, such as block number and timestamp.
+
+76. **Q:** What is the 'this' keyword in Solidity?
+    **A:** A reference to the current contract instance.
+
+77. **Q:** What is the purpose of the 'address' type in Solidity?
+    **A:** To store Ethereum addresses.
+
+78. **Q:** What is a 'struct' in Solidity?
+    **A:** A custom data type that groups together variables.
+
+79. **Q:** What is a 'function modifier' in Solidity?
+    **A:** A function used to change the behavior of another function.
+
+80. **Q:** What is the difference between 'memory' and 'storage' in Solidity?
+    **A:** 'Memory' refers to temporary storage used during contract execution, while 'storage' refers to persistent storage on the blockchain.
+
+81. **Q:** What is 'ABI' in Ethereum?
+    **A:** Application Binary Interface, a standard way for contracts to interact within and outside of the blockchain.
+
+82. **Q:** What is the purpose of 'payable' keyword in Solidity?
+    **A:** To allow a function to accept Ether.
+
+83. **Q:** What is 'eth_call'?
+    **A:** A method to call a smart contract function locally without creating a transaction.
+
+84. **Q:** What is 'eth_sendTransaction'?
+    **A:** A method to send a transaction to the Ethereum blockchain.
+
+85. **Q:** What is a 'nonce' in Ethereum?
+    **A:** A unique number that ensures each transaction can only be processed once.
+
+86. **Q:** What is a 'block reward'?
+    **A:** The amount of Ether awarded to miners for solving a block.
+
+87. **Q:** What is 'difficulty' in Ethereum?
+    **A:** A measure of how hard it is to find a new block compared to the easiest it can ever be.
+
+88. **Q:** What is a 'contract address' in Ethereum?
+    **A:** The address where a smart contract is deployed on the Ethereum blockchain.
+
+89. **Q:** What is a 'client' in Ethereum?
+    **A:** Software that implements the Ethereum protocol and interacts with the blockchain.
+
+90. **Q:** What is Geth?
+    **A:** Go-Ethereum, one of the most popular Ethereum clients.
+
+91. **Q:** What is Parity?
+    **A:** Another Ethereum client known for its speed and efficiency.
+
+92. **Q:** What is a 'receipt' in Ethereum?
+    **A:** A confirmation that a transaction has been processed.
+
+93. **Q:** What is the purpose of the 'eth_getBalance' method?
+    **A:** To get the balance of an address.
+
+94. **Q:** What is the 'eth_blockNumber' method used for?
+    **A:** To get the number of the most recent block.
+
+95. **Q:** What is the 'eth_getTransactionByHash' method?
+    **A:** To get information about a transaction by its hash.
+
+96. **Q:** What is a 'decentralized finance' (DeFi) application?
+    **A:** A financial application built on blockchain technology that operates without intermediaries.
+
+97. **Q:** What is 'staking' in Ethereum 2.0?
+    **A:** The process of locking up Ether to participate in validating transactions and securing the network.
+
+98. **Q:** What is a 'rollup' in Ethereum?
+    **A:** A layer 2 scaling solution that processes transactions off-chain and posts summarized data on-chain.
+
+99. **Q:** What is 'zk-SNARKs'?
+    **A:** Zero-Knowledge Succinct Non-Interactive Argument of Knowledge, a cryptographic proof that enables one party to prove it possesses certain information without revealing that information.
+
+100. **Q:** What is the 'Keystore' file in Ethereum?
+    **A:** A file that stores the user's private key encrypted with a password.
+
+
+
+
+
