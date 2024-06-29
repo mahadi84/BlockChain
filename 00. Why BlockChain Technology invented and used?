@@ -26,7 +26,7 @@ Here are the main 10 problems blockchain was designed to solve and how it addres
    **Problem:** Traditional financial transactions can be slow and costly, especially across borders, due to multiple intermediaries and legacy systems.
    **Solution:** Blockchain enables peer-to-peer transactions, reducing the need for intermediaries and allowing for faster and more cost-effective transactions.
 
-### 6. **Data Tampering**
+###### 6. **Data Tampering**
    **Problem:** Centralized databases are susceptible to tampering, leading to data breaches and fraud.
    **Solution:** Blockchain's cryptographic hashing and consensus mechanisms ensure that once data is recorded, it cannot be altered without detection, making tampering virtually impossible.
 
