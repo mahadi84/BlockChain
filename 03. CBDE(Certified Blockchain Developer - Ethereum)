@@ -78,10 +78,6 @@ in Solidity:
 
 ########## Section 1: Ethereum Fundamentals  ################
 
->>Ethereum  >>creator of Ethereum   >>ETH   >>EVM
->>gas in Ethereum   >>purpose of gas in Ethereum
->>gas limit >>gas price     >>blockchain node
-
 1. **Q:** What is Ethereum?
    **A:** Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud, or third-party interference.
 
@@ -113,8 +109,7 @@ in Solidity:
     **A:** A node is a computer connected to the blockchain network that stores and validates the blockchain data.
 
  ####### Section 2: Ethereum Development Tools  ################
->>Solidity  >>Web3.js   >>Truffle   >>Ganache   >>Remix IDE 
->>MetaMask  >>Infura    >>Hardhat   >>OpenZeppelin  >>testnet
+
 
 11. **Q:** What is Solidity?
     **A:** Solidity is a statically-typed programming language designed for developing smart contracts on the Ethereum blockchain.
@@ -147,12 +142,6 @@ in Solidity:
     **A:** A testnet is a testing environment that mimics the main Ethereum network, allowing developers to test smart contracts without using real Ether.
 
 ########## Section 3: Solidity Programming  ################
-
-in Solidity:    
->>constructor   >>fallback function    >>'msg.sender'  >>'msg.value' 
->>'require'  >>'assert'    >>'revert'  >>'emit'  >>'event' >>'mapping' 
->>'modifier'  >>inheritance >>library    >>'selfdestruct'    >>'delegatecall'    
->>'this'    >>'struct'  >>difference between 'memory' and 'storage'   >>'ABI'    >>'payable' keyword 
 
 21. **Q:** What is a constructor in Solidity?
     **A:** A constructor is a special function that initializes a smart contract when it is deployed.
@@ -215,9 +204,6 @@ in Solidity:
     **A:** The 'payable' keyword allows a function to accept Ether.
 
 ########## Section 4: Ethereum Standards and Tokens ################
->>ERC-20 standard   >>ERC-721  >>fungible token  >>NFT 
->>main functions of the ERC-20 standard  >>ICO >>DApp   
->>ENS  >>token in Ethereum   >>DEX  
 
 41. **Q:** What is the ERC-20 standard?
     **A:** ERC-20 is a standard for fungible tokens on the Ethereum blockchain.
@@ -249,10 +235,7 @@ in Solidity:
 50. **Q:** What is a decentralized exchange (DEX)?
     **A:** A DEX is an exchange that operates without a central authority, allowing peer-to-peer trading of cryptocurrencies.
 
-### Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades
-    
-    >>EIP   >>EIP-1559 >>Ethereum 2.0   >>PoS  >>sharding    
-    >>validator >>staking    >>Beacon Chain  >>merge   >>EIP-721
+############# Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades ##########
 
 51. **Q:** What is an Ethereum Improvement Proposal (EIP)?
     **A:** An EIP is a proposal for changes, enhancements, or improvements to the Ethereum network.
@@ -287,8 +270,6 @@ in Solidity:
     **A:** EIP-721 is the proposal that defines the ERC-721 standard for non-fungible tokens (NFTs).
 
 ########## Section 6: Ethereum Security ################
->>reentrancy    >>DAO   >>multisignature wallet     >>private key  
->>public key  >>purpose of hashing  >>keccak256   >>nonce    >>'require' >>DoS  
 
 61. **Q:** What is reentrancy in smart contracts?
     **A:** Reentrancy is a vulnerability where an external call to another contract can call back into the calling contract before the initial execution is complete.
@@ -322,10 +303,6 @@ in Solidity:
 
 ########## Section 7: Ethereum Transactions and Blockchain Mechanics ################
 
->>transaction   >>structure of an Ethereum transaction >>block  >>block hash  
->>average block time in Ethereum  >>receipt >>'eth_getBalance'   >>'eth_blockNumber'    
->>'eth_getTransactionByHash'    >>'eth_call' 
-
 71. **Q:** What is a transaction in Ethereum?
     **A:** A transaction is an action initiated by an externally owned account that can transfer value or execute a smart contract.
 
@@ -357,9 +334,7 @@ in Solidity:
     **A:** The 'eth_call' method executes a smart contract function locally without creating a transaction.
 
 ############### Section 8: Layer 2 Solutions and Scaling #################
-
->>sidechain >>Raiden >>Plasma >>rollup >>optimistic rollups >>zk-rollups 
->>sharding   >>purpose of layer 2 solutions >>state channel  >>function of the Beacon Chain 
+ 
 
 81. **Q:** What is a sidechain?
     **A:** A sidechain is an independent blockchain that runs in parallel to the main Ethereum chain, allowing for greater scalability and functionality.
@@ -393,10 +368,6 @@ in Solidity:
 
 ########## Section 9: Oracles and External Data ################
 
->>oracle in blockchain  >>Chainlink   >>purpose of oracles   >>centralized oracle   
->>decentralized oracle  >>off-chain computation in the context of oracles    
->>oracles maintain data integrity >>importance of data feeds in decentralized finance (DeFi)   
->>price oracle >>risks associated with oracles in blockchain 
 
 91. **Q:** What is an oracle in blockchain?
     **A:** An oracle is a service that provides external data to smart contracts.
@@ -429,7 +400,7 @@ in Solidity:
     **A:** Risks include centralization, data manipulation, and single points of failure, which can compromise the security and reliability of smart contracts.
 
 
+
 These questions and answers are divided into specific sections covering various aspects of Ethereum and blockchain development, helping to provide a structured approach to learning for the CBDE certification.
 
-
---
+-
