@@ -2,34 +2,32 @@ Date: 02-June-24
 
 01. What is Block Chain?
 
-Where Block Chain Technology is uses?
-01. Cryptocurrencies              02. Financial Services
+02. Where Block Chain Technology is uses?
+01. Cryptocurrencies              	02. Financial Services
 03. Supply Chain Management       04. Digital Identity Verification
-05. Smart Contracts               06. Healthcare:
-07. Voting Systems                08. Intellectual Property Management 
+05. Smart Contracts               	06. Healthcare:
+07. Voting Systems                	08. Intellectual Property Management 
 
---------
 
 WHY:
-01. Secure and Immutable,          02. Transparent and Trust:  
-03. Decentralized,                 04. Less Intermediaries.
-05. Faster and more efficient      06. Low transaction costs.
-07. Enhanced Record-Keeping        08. Self-executing programs
-09. Promoting financial inclusion globally.
-10. Easy tracking and ensuring transparency
+01. Secure and Immutable,          			02. Transparent and Trust:  
+03. Decentralized,                 			04. Less Intermediaries.
+05. Faster and more efficient      			06. Low transaction costs.
+07. Enhanced Record-Keeping        		08. Self-executing programs
+09. Promoting financial inclusion globally.	10. Easy tracking and ensuring transparency
 
 03. Why Blockchain technology was invented?
 >>Bitcoin,      >>Ethereum      >>Ripple’s blockchain-based payment system
 >>IBM’s Food Trust blockchain(Use Wallmart)      >>TransferWise (now Wise)
->>Voatz         >>uPort         >>BitPesa
->>Ascribe       >>Estonia’s e-Residency
+>>Voatz         >>uPort         >>BitPesa 	>>Ascribe       >>Estonia’s e-Residency
 
 
-=============== ANS_01. What is Block Chain?==================================
+================== ANS_01. What is Block Chain?===========================
+
 Blockchain is a distributed ledger technology that allows data to be stored and managed securely across a network of computers, rather than in a single central location. 
 It consists of a chain of blocks, where each block contains a set of transactions or data, and is linked to the previous block through cryptographic hashes, forming a chronological chain.
 
-===================ANS_02. Where Block Chain Technology is uses?====================
+================ANS_02. Where Block Chain Technology is uses?===================
 01. Cryptocurrencies: The most well-known application of blockchain technology is in cryptocurrencies like Bitcoin, Ethereum, and others.
 
 02. Financial Services: Many financial institutions are exploring blockchain for tasks such as cross-border payments, trade finance, and securities trading. 
@@ -52,7 +50,7 @@ It consists of a chain of blocks, where each block contains a set of transaction
 08. Intellectual Property Management: Blockchain can be used to create immutable records of intellectual property rights, such as patents, copyrights, and trademarks, enabling creators to protect their creations and prove ownership.
 
 
-==========================ANS_Of_03. Why Blockchain technology was invented? ================================
+===========ANS_Of_03. Why Blockchain technology was invented? ===================
 
 Blockchain technology was invented to solve several fundamental problems in various industries. 
 Here are ten main problems and how blockchain addresses them, along with real-life examples:
@@ -92,6 +90,7 @@ Here are ten main problems and how blockchain addresses them, along with real-li
    - **Solution:** Blockchain can provide a secure, decentralized way to verify and manage identities.
    - **Example:** uPort uses blockchain to create digital identities that users control, simplifying and securing identity verification processes.
 
+
 8. **Inaccessibility to Banking Services**
    - **Problem:** Many people worldwide lack access to traditional banking services.
    - **Solution:** Blockchain provides a decentralized financial system, giving unbanked populations access to financial services.
@@ -108,14 +107,6 @@ Here are ten main problems and how blockchain addresses them, along with real-li
     - **Example:** Estonia’s e-Residency program uses blockchain to secure and authenticate citizens’ data, ensuring its integrity and preventing unauthorized access.
 
 
-These examples illustrate how blockchain technology can address various problems across different industries, offering more secure, transparent, and efficient solutions.
-
-
-
-
-
-
--
 
 
 --
