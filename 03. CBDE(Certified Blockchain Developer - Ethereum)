@@ -20,7 +20,6 @@ Give me 100 questions and answers non-repeating and section-wise for Certified B
 
 
 
-
 ########## Section 1: Ethereum Fundamentals  ################
 
 >>Ethereum  >>creator of Ethereum   >>ETH   >>EVM
@@ -46,7 +45,10 @@ in Solidity:
 >>main functions of the ERC-20 standard  >>ICO >>DApp   
 >>ENS  >>token in Ethereum   >>DEX  
 
-####### Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades ####
+
+
+
+###### Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades ####
     
     >>EIP   >>EIP-1559 >>Ethereum 2.0   >>PoS  >>sharding    
     >>validator >>staking    >>Beacon Chain  >>merge   >>EIP-721
@@ -56,7 +58,7 @@ in Solidity:
 >>reentrancy    >>DAO   >>multisignature wallet     >>private key  
 >>public key  >>purpose of hashing  >>keccak256   >>nonce    >>'require' >>DoS 
 
-########## Section 7: Ethereum Transactions and Blockchain Mechanics ################
+####### Section 7: Ethereum Transactions and Blockchain Mechanics ##########
 
 >>transaction   >>structure of an Ethereum transaction >>block  >>block hash  
 >>average block time in Ethereum  >>receipt >>'eth_getBalance'   >>'eth_blockNumber'    
@@ -75,7 +77,12 @@ in Solidity:
 >>price oracle >>risks associated with oracles in blockchain 
 
 
------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
@@ -140,6 +147,7 @@ in Solidity:
 
 19. **Q:** What is OpenZeppelin?
     **A:** OpenZeppelin is a library of secure and community-vetted smart contracts for Ethereum.
+
 
 20. **Q:** What is a testnet?
     **A:** A testnet is a testing environment that mimics the main Ethereum network, allowing developers to test smart contracts without using real Ether.
@@ -238,7 +246,7 @@ in Solidity:
 50. **Q:** What is a decentralized exchange (DEX)?
     **A:** A DEX is an exchange that operates without a central authority, allowing peer-to-peer trading of cryptocurrencies.
 
-############# Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades ##########
+##### Section 5: Ethereum Improvement Proposals (EIPs) and Network Upgrades #####
 
 51. **Q:** What is an Ethereum Improvement Proposal (EIP)?
     **A:** An EIP is a proposal for changes, enhancements, or improvements to the Ethereum network.
@@ -297,6 +305,8 @@ in Solidity:
 
 68. **Q:** What is a nonce in Ethereum?
     **A:** A nonce is a unique number used to ensure each transaction can only be processed once.
+
+
 
 69. **Q:** What is the 'require' statement used for in Solidity?
     **A:** The 'require' statement is used to validate conditions and revert the transaction if the condition is not met.
@@ -390,6 +400,8 @@ in Solidity:
 96. **Q:** What is an off-chain computation in the context of oracles?
     **A:** Off-chain computation refers to executing certain functions outside the blockchain to save on computational resources and gas fees.
 
+
+
 97. **Q:** How do oracles maintain data integrity?
     **A:** Oracles maintain data integrity through cryptographic proofs and consensus mechanisms to ensure the data provided to smart contracts is accurate and trustworthy.
 
@@ -404,6 +416,3 @@ in Solidity:
 
 
 
-These questions and answers are divided into specific sections covering various aspects of Ethereum and blockchain development, helping to provide a structured approach to learning for the CBDE certification.
-
--
