@@ -11,16 +11,27 @@ WHY:
 
 
 -------
->enhance  security                                             >provide
->enforce                                                       >prove
->ensure   security/authenticity/transparent/privacy(of)        >prevent
->execute                                                       >protect
+>enhance  security                                            
+>enforce  when predefined conditions are met / the terms of an agreement without needing a trusted intermediary                                                  
+>ensure   security/authenticity/transparent/privacy(of)       
+>execute  smart contracts
 
->reduce        >improve efficiency  >due to
->verify        >validate            >lack access
->alter         >create
+>prevent   double-spending/unauthorized access
+>provide   a transparent and immutable record of the entire supply chain /  a secure, decentralized way to verify and manage identities
+>prove     
+>protect  their creations and prove ownership.
 
->vulnerable to hacks    >data breaches
+>reduce   cost / fraud in cross-border transactions
+>improve  efficiency 
+>due to
+>verify  each transaction across a network of nodes        
+>validate  transaction          
+>lack access
+>alter         
+>create
+
+>vulnerable to hacks    
+>data breaches
 
 ------
 
