@@ -11,23 +11,23 @@ WHY:
 
 
 -------
->enhance  security                                            
->enforce  when predefined conditions are met / the terms of an agreement without needing a trusted intermediary                                                  
->ensure   security/authenticity/transparent/privacy(of)       
->execute  smart contracts
+>enhance    security                                            
+>enforce    when predefined conditions are met / the terms of an agreement without needing a trusted intermediary                                                  
+>ensure     security/authenticity/transparent/privacy(of)       
+>execute    smart contracts
 
->prevent   double-spending/unauthorized access
->provide   a transparent and immutable record of the entire supply chain /  a secure, decentralized way to verify and manage identities
+>prevent     double-spending/unauthorized access
+>provide     a transparent and immutable record of the entire supply chain /  a secure, decentralized way to verify and manage identities
 >prove     
->protect  their creations and prove ownership.
+>protect    their creations and prove ownership.
 
->reduce   cost / fraud in cross-border transactions
->improve  efficiency 
->due to
->verify  each transaction across a network of nodes        
+>reduce     cost / fraud in cross-border transactions
+>improve    efficiency 
+>due to     centralized control and lack of transparency / multiple intermediaries
+>verify    each transaction across a network of nodes        
 >validate  transaction          
 >lack access
->alter         
+>alter     transaction records.     
 >create
 
 >vulnerable to hacks    
