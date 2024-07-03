@@ -18,7 +18,7 @@ WHY:
 
 >prevent     double-spending/unauthorized access
 >provide     a transparent and immutable record of the entire supply chain /  a secure, decentralized way to verify and manage identities
->prove     
+>prove       ownership     
 >protect    their creations and prove ownership.
 
 >reduce     cost / fraud in cross-border transactions
@@ -32,6 +32,7 @@ WHY:
 
 >vulnerable to hacks    
 >data breaches
+>tamper resistance in election/txn/supply management
 
 ------
 
