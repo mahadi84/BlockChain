@@ -1,4 +1,5 @@
-Date: 02-June-24
+Date: 02-June-2024
+
 
 ----------01. What is Block Chain?
 
@@ -11,7 +12,7 @@ WHY:
 
 
 -------
->enhance    security                                            
+>enhance   security                                            
 >enforce    when predefined conditions are met / the terms of an agreement without needing a trusted intermediary                                                  
 >ensure     security/authenticity/transparency/privacy(of)       
 >execute    smart contracts
@@ -28,15 +29,12 @@ WHY:
 >validate  transaction          
 >lack access
 >alter     transaction records.     
->create
 
 >vulnerable to hacks/fraud   >data breaches   >lack of transparacy
 >tamper resistance in election/txn/supply management
 >system offers
 >intellectural Property rights
 >require trust in a third party, such as a bank or payment processor/gateway
-
-------
 
 --------02. Where blockchain technology is used?
 01. Cryptocurrencies              	02. Financial Services
@@ -48,43 +46,34 @@ WHY:
 -------03. Why was Blockchain technology invented?
 >>Bitcoin,                  >>Ethereum      
 >>Ripple’s blockchain-based payment system  >>IBM’s Food Trust blockchain(Use Wallmart)      
->>TransferWise (now Wise)  >>Voatz         
->>uPort                    >>BitPesa 	
->>Ascribe                  >>Estonia’s e-Residency
-
+>>TransferWise (now Wise)  >>Voatz         >>uPort                    >>BitPesa 	>>Ascribe                  >>Estonia’s e-Residency
 
 ================== ANS_01. What is Block Chain?===========================
 
 Blockchain is a distributed ledger technology that allows data to be stored and managed securely across a network of computers, rather than in a single central location. 
-It consists of a chain of blocks, where each block contains a set of transactions or data and is linked to the previous block through cryptographic hashes, forming a chronological chain.
+It consists of a chain of blocks, where each block contains a set of transactions or data, and is linked to the previous block through cryptographic hashes, forming a chronological chain.
 
-================ANS_02. Where Block Chain Technology is used?===================
+================ANS_02. Where Block Chain Technology is uses?===================
+
 01. Cryptocurrencies: The most well-known application of blockchain technology is in cryptocurrencies like Bitcoin, Ethereum, and others.
 
-02. Financial Services: Many financial institutions are exploring blockchain for tasks such as cross-border payments, trade finance, and securities trading. 
-  Blockchain can potentially streamline processes, reduce costs, and enhance security in the financial sector.
+02. Financial Services: Many financial institutions are exploring blockchain for tasks such as cross-border payments, trade finance, and securities trading. Blockchain can potentially streamline processes, reduce costs, and enhance security in the financial sector.
 
-03. Supply Chain Management: Blockchain can provide transparency and traceability in supply chains by recording the movement of goods from production to delivery.
-    This helps in tracking the origin of products, ensuring authenticity, and improving efficiency.
+03. Supply Chain Management: Blockchain can provide transparency and traceability in supply chains by recording the movement of goods from production to delivery.This helps in tracking the origin of products, ensuring authenticity, and improving efficiency.
 
-04. Digital Identity Verification: Blockchain can be used to create decentralized digital identity systems that provide individuals 
-    with control over their personal information while ensuring security and privacy.
+04. Digital Identity Verification: Blockchain can be used to create decentralized digital identity systems that provide individuals with control over their personal information while ensuring security and privacy.
 
-05. Smart Contracts: Smart contracts are self-executing contracts with the terms of the agreement directly written into code. 
-    They automatically execute and enforce when predefined conditions are met, providing automation and reliability in various industries such as real estate, insurance, and legal contracts.
+05. Smart Contracts: Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They automatically execute and enforce when predefined conditions are met, providing automation and reliability in various industries such as real estate, insurance, and legal contracts.
 
-06. Healthcare: Blockchain technology can facilitate the secure sharing of patient data among healthcare providers while maintaining patient privacy and data integrity. 
-    It can also help in managing medical records and ensuring the authenticity of pharmaceutical products.
+06. Healthcare: Blockchain technology can facilitate secure sharing of patient data among healthcare providers while maintaining patient privacy and data integrity. It can also help in managing medical records and ensuring the authenticity of pharmaceutical products.
 
 07. Voting Systems: Blockchain-based voting systems offer transparency, security, and tamper resistance in elections by recording votes on a distributed ledger, thus reducing the risk of fraud and manipulation.
 
-08. Intellectual Property Management: Blockchain can create immutable records of intellectual property rights, such as patents, copyrights, and trademarks, enabling creators to protect their creations and prove ownership.
-
+08. Intellectual Property Management: Blockchain can be used to create immutable records of intellectual property rights, such as patents, copyrights, and trademarks, enabling creators to protect their creations and prove ownership.
 
 ===========ANS_Of_03. Why Blockchain technology was invented? ===================
 
-Blockchain technology was invented to solve several fundamental problems in various industries. 
-Here are ten main problems and how blockchain addresses them, along with real-life examples:
+Blockchain technology was invented to solve several fundamental problems in various industries. Here are problems and how blockchain addresses them, along with real-life examples:
 
 1. **Double Spending in Digital Transactions**
    - **Problem:** The same digital currency can be spent more than once in digital transactions.
@@ -120,7 +109,6 @@ Here are ten main problems and how blockchain addresses them, along with real-li
    - **Problem:** Identity verification is often cumbersome, insecure, and prone to fraud.
    - **Solution:** Blockchain can provide a secure, decentralized way to verify and manage identities.
    - **Example:** uPort uses blockchain to create digital identities that users control, simplifying and securing identity verification processes.
-
 
 8. **Inaccessibility to Banking Services**
    - **Problem:** Many people worldwide lack access to traditional banking services.
